@@ -1,16 +1,96 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Architecture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .imageContainer {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        td img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <h1>Architecture</h1>
 
+        <div class="imageContainer">
+            <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80" alt="Modern architecture">
+        </div>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td width="200">
+                        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=400&q=80" alt="Modern building">
+                    </td>
+                    <td width="600">
+                        <h2>Modern Architecture</h2>
+                        <p>Modern architecture emphasizes simplicity, functionality, and clean geometric forms. It often uses materials such as glass, steel, and concrete to create practical and visually appealing structures.</p>
+                    </td>
+                    <td width="200">
+                        <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=400&q=80" alt="Contemporary building">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="200">
+                        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=400&q=80" alt="Architectural design">
+                    </td>
+                    <td width="600">
+                        <h2>Traditional Architecture</h2>
+                        <p>Traditional architecture reflects the history, culture, and craftsmanship of a region. Its designs often incorporate local materials, decorative details, and techniques passed down through generations.</p>
+                    </td>
+                    <td width="200">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=400&q=80" alt="Traditional inspired architecture">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
-
 </html>
